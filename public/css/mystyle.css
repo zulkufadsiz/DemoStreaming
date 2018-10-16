@@ -1,0 +1,109 @@
+
+.navbar-brand{
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	font-weight: 600;
+	padding: 10px;
+	color:#fff;
+}
+
+.btn-secondary{
+	background:#222222;
+	border:#222222;
+}
+
+.bg-dark{
+	background-image: none;
+	background:none;
+	border-radius: 0;
+}
+.breadcrumb-item.active {
+
+	color:#fff;
+	font-weight: 600;
+	font-size:24px;
+}
+.content{
+	min-height: calc(100vh - 320px);
+}
+
+.scene{
+	position:relative;
+	text-align:center;
+	height:200px;
+}
+
+.scene .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+	transform: translate(-50%, -50%);
+	color:white;
+	font-weight: 600;
+	font-size:24px;
+}
+.scene img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.card-img-right{
+	width: 100%;
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+}
+.copyright{
+    color:#b1aca1;
+}
+
+.copyright p{
+   font-size: 12px;
+   margin:10px 0px;
+   padding-bottom: 25px;
+}
+
+.menu.list-inline {
+   margin-bottom: 0rem;
+}
+
+footer{
+	background-color:#222222;
+	padding: 40px 0px;
+  /* position: fixed;*/
+   left: 0;
+   bottom: 0;
+   width: 100%;
+}
+footer li{
+	float: left;
+}
+footer  li a{
+	color:#b1aca1;
+	padding:10px;
+	text-decoration:none;
+	font-size: 14px;
+}
+
+footer  li a img{
+	height:35px;
+}
+
+footer .menu li:after{
+	 content: "|";
+     color:#b1aca1;
+}
+
+footer .menu  li:last-child:after{
+	content:"";
+}
+
+footer .menu li a:hover{
+	color:#7dabdb;
+}
+
+

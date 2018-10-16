@@ -2,14 +2,22 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#000000">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/mystyle.css" >
     <!--
-      manifest.json provides metadata used when your web app is added to the
-      homescreen on Android. See https://developers.google.com/web/fundamentals/web-app-manifest/
+      This page developed by Zulkuf ADSIZ
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <script src="%PUBLIC_URL%/js/jquery-3.3.1.slim.min.js" ></script>
+    <script src="%PUBLIC_URL%/js/bootstrap.min.js"></script>
+    <script src="%PUBLIC_URL%/js/popper.min.js"></script>
+    <script src="%PUBLIC_URL%/js/list.min.js"></script>
+    <script src="%PUBLIC_URL%/js/myscript.js"></script>
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -19,22 +27,114 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Demo Streaming</title>
   </head>
   <body>
+    <!-- navbar -->
+    <nav class=" navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container">
+        <a class="navbar-brand" href="/">DEMO Streaming</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="#navbarSupportedContent" class="collapse navbar-collapse float-right">
+          <ul class="navbar-nav mr-auto">
+
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <a class="nav-link text-white" href="#">Log in</a>
+            <button class="btn btn-secondary my-2 my-sm-0 text-white" type="submit">Start your free trial</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar-end -->
+
     <noscript>
       You need to enable JavaScript to run this app.
     </noscript>
     <div id="root"></div>
     <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
+      This page developed by Zulkuf ADSIZ
     -->
-  </body>
-</html>
+    <!-- footer -->
+      <footer>
+        <div class="container">
+
+
+          <div class="row text-center">
+            <ul class="menu list-inline">
+              <li>
+                <a href="#">Home</a>
+              </li>
+
+              <li>
+                <a href="#">Terms and Conditions</a>
+              </li>
+
+              <li>
+                <a href="#">Privacy Policy</a>
+              </li>
+
+              <li>
+                <a href="#">Collection Statement</a>
+              </li>
+
+              <li>
+                <a href="#">Help</a>
+              </li>
+              <li>
+                <a href="#">Manage Account</a>
+              </li>
+            </ul>
+          </div>
+          <div class="container">
+            <div class="copyright">
+              <div class="row text-center">
+                <p>Copyright © 2016 Demo Streaming. All Rights Reserved</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-md-6">
+              <ul class="list-inline">
+                <li>
+                  <a href="#"><img src="%PUBLIC_URL%/images/social/facebook-white.svg" alt="" /></a>
+                </li>
+
+                <li>
+                  <a href="#"><img src="%PUBLIC_URL%/images/social/twitter-white.svg" alt="" /></i></a>
+                </li>
+
+                <li>
+                  <a href="#"><img src="%PUBLIC_URL%/images/social/instagram-white.svg" alt="" /></a>
+                </li>
+
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <ul class="list-inline">
+                <li>
+                  <a href="https://facebook.com/demostreaming"><img src="%PUBLIC_URL%/images/store/app-store.svg" alt="" /></a>
+                </li>
+
+                <li>
+                  <a href="https://twitter.com/demostreaming"><img src="%PUBLIC_URL%/images/store/play-store.svg" alt="" /></i></a>
+                </li>
+
+                <li>
+                  <a href="https://instagram.com/demostreaming"><img src="%PUBLIC_URL%/images/store/windows-store.svg" alt="" /></a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- footer-end -->
+    </body>
