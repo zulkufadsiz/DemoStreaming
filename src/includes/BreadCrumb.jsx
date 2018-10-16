@@ -9,9 +9,9 @@ class BreadCrumb extends Component {
     return(
       <div>
            <nav className="bg-dark" aria-label="breadcrumb">
-             <div class="container">
-               <ol class="breadcrumb bg-dark" style={style}>
-                 <li class="breadcrumb-item active" aria-current="page">{this.props.title}</li>
+             <div className="container">
+               <ol className="breadcrumb bg-dark" style={style}>
+                 <li className="breadcrumb-item active" aria-current="page">{this.props.title}</li>
                </ol>
              </div>
            </nav>

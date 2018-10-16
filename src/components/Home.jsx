@@ -20,7 +20,7 @@ class Home extends Component {
                   </a>
                 </div>
                 <div className="col-md-2">
-                  <a href="/movies">
+                  <a href="/movie">
                     <div className="scene bg-dark">
                       <div className="centered">MOVIES</div>
                       <img src="/images/placeholder.png" />

@@ -42,7 +42,7 @@ class Movies extends Component {
             }
           })}
           </div>
-          <button onClick={this.incrementCount} className="btn btn-primary mb-3">Load More</button>
+          <button onClick={this.incrementCount} className="btn btn-primary mb-3 has-spinner">Load More</button>
         </div>
       </div>
     </div>
